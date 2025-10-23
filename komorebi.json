@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:KOREMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
+  "border": true,
+  "bar_configurations": [
+    "$Env:KOREMOREBI_CONFIG_HOME/komorebi.bar.monitor1.json",
+    "$Env:KOREMOREBI_CONFIG_HOME/komorebi.bar.monitor2.json"
+  ],
+  "display_index_preferences": {
+    "0": "0",
+    "1": "142400D3E2X00"
+  },
+  "border_width": 0,
+  "border_offset": 1,
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha",
+    "unfocused_border": "Teal",
+    "bar_accent": "Sapphire"
+  },
+  "transparency": true,
+  "mouse_follows_focus": true,
+  "transparency-alpha": 220,
+  "animation": {
+    "enabled": true,
+    "duration": 400,
+    "fps": 120,
+    "style": {
+      "movement": "EaseOutBack",
+      "transparency": "Linear"
+    }
+  },
+  "stackbar": {
+    "height": 30,
+    "label": "Title",
+    "mode": "OnStack",
+    "tabs": {
+      "width": 150,
+      "font_size": 16,
+      "focused_text": "#74c7ec",
+      "unfocused_text": "#a6adc8",
+      "background": "#11111b"
+    }
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "BSP"
+        },
+        {
+          "name": "III",
+          "layout": "Columns"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "BSP"
+        },
+        {
+          "name": "3",
+          "layout": "Columns"
+        }
+      ]
+    }
+  ]
+    }

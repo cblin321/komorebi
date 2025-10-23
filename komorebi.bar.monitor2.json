@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.bar.json",
+  "monitor": 1,
+  "monitor_index": 1,
+  "font_family": "JetBrains Mono",
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha",
+    "accent": "Sapphire"
+  },
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": false
+        },
+        "layout": {
+          "enable": true
+        }
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Storage": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
+      }
+    }
+  ]
+}
