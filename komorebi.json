@@ -24,11 +24,12 @@
   },
   "transparency": true,
   "mouse_follows_focus": true,
+  "focus_follows_mouse": "Windows",
   "transparency-alpha": 220,
   "animation": {
     "enabled": true,
-    "duration": 400,
-    "fps": 120,
+    "duration": 300,
+    "fps": 60,
     "style": {
       "movement": "EaseOutBack",
       "transparency": "Linear"
