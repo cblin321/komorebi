@@ -10,10 +10,6 @@
     "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.monitor1.json",
     "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.monitor2.json"
   ],
-  "display_index_preferences": {
-    "1": "0",
-    "0": "142400D3E2X00"
-  },
   "border_width": 0,
   "border_offset": 1,
   "theme": {
@@ -74,23 +70,7 @@
           "layout": "BSP"
         }
       ]
-    },
-
-    {
-      "workspaces": [
-        {
-          "name": "1",
-          "layout": "BSP"
-        },
-        {
-          "name": "2",
-          "layout": "BSP"
-        },
-        {
-          "name": "3",
-          "layout": "Columns"
-        }
-      ]
     }
+
   ]
     }
