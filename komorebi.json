@@ -11,8 +11,8 @@
     "$Env:KOMOREBI_CONFIG_HOME/komorebi.bar.monitor2.json"
   ],
   "display_index_preferences": {
-    "0": "0",
-    "1": "142400D3E2X00"
+    "1": "0",
+    "0": "142400D3E2X00"
   },
   "border_width": 0,
   "border_offset": 1,
@@ -24,7 +24,6 @@
   },
   "transparency": true,
   "mouse_follows_focus": true,
-  "focus_follows_mouse": "Windows",
   "transparency-alpha": 220,
   "animation": {
     "enabled": true,
@@ -51,19 +50,32 @@
     {
       "workspaces": [
         {
-          "name": "I",
+          "name": "Entertainment",
           "layout": "BSP"
         },
         {
-          "name": "II",
+          "name": "School I",
           "layout": "BSP"
         },
         {
-          "name": "III",
+          "name": "School II",
+          "layout": "BSP"
+        },
+        {
+          "name": "Coding I",
           "layout": "Columns"
+        },
+        {
+          "name": "Coding II",
+          "layout": "Columns"
+        },
+        {
+          "name": "Misc",
+          "layout": "BSP"
         }
       ]
     },
+
     {
       "workspaces": [
         {
